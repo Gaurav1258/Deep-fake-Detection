@@ -45,6 +45,9 @@ To understand the datasets available for this competition, review the Getting St
 
 ### Columns
 filename - the filename of the video
+
 label - whether the video is REAL or FAKE
+
 original - in the case that a train set video is FAKE, the original video is listed here
+
 split - this is always equal to "train".
