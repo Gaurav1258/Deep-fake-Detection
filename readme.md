@@ -28,3 +28,23 @@ Damage to reputations: Deep fake videos can be used to damage the reputations of
 Finally, we can say that it is very important to keep in our mind that just like any other technology, this technology of deep fake videos has the potential for many positive uses but at the same time it also has a number of potential risks and challenges, such as spreading misinformation and damaging reputations, therefore, the development of deep fake technology should be done in an ethical and responsible way. As the technology is advancing day by day, it is getting harder and harder to detect and prevent their use and its potential for harm also increases.
  
 Because of this, in recent years researchers and many organizations have started to work on developing techniques that can detect deep fake videos, and many countries have started to develop laws and regulations to address the issue.
+
+## DATASET:
+### Training Set
+To download the dataset you can follow the [link](https://www.kaggle.com/competitions/deepfake-detection-challenge/data) that will take you kaggle.com where you need to accept the terms and condition then you can download the dataset. This code competition's training set is not available directly on Kaggle, as its size is prohibitively large to train in Kaggle. Instead, it's strongly recommended that you train offline and load the externally trained model as an external dataset into Kaggle Notebooks to perform inference on the Test Set. Review Getting Started for more detailed information.
+
+The full training set is just over 470 GB. Kaggle competition has made it available as one giant file, as well as 50 smaller files, each ~10 GB in size. You must accept the competition's rules to gain access for using the dataset.
+
+Rather than downloading you can load your download your kaggle key which comes in a JSON format containing user specific key that can be used for loading any dataset in your personal cloud based platform like google colab.
+
+### Files
+train_sample_videos.zip - a ZIP file containing a sample set of training videos and a metadata.json with labels. the full set of training videos is available through the links provided above.
+sample_submission.csv - a sample submission file in the correct format.
+test_videos.zip - a zip file containing a small set of videos to be used as a public validation set.
+To understand the datasets available for this competition, review the Getting Started information.
+
+### Columns
+filename - the filename of the video
+label - whether the video is REAL or FAKE
+original - in the case that a train set video is FAKE, the original video is listed here
+split - this is always equal to "train".
