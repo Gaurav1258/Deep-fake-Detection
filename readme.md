@@ -38,9 +38,13 @@ The full training set is just over 470 GB. Kaggle competition has made it availa
 Rather than downloading you can load your download your kaggle key which comes in a JSON format containing user specific key that can be used for loading any dataset in your personal cloud based platform like google colab.
 
 ### Files
+
 train_sample_videos.zip - a ZIP file containing a sample set of training videos and a metadata.json with labels. the full set of training videos is available through the links provided above.
+
 sample_submission.csv - a sample submission file in the correct format.
+
 test_videos.zip - a zip file containing a small set of videos to be used as a public validation set.
+
 To understand the datasets available for this competition, review the Getting Started information.
 
 ### Columns
